@@ -901,6 +901,10 @@ body {
   canvas{
     display: none;
   }
+    .intro .content
+  {
+    max-width: 100%;
+  }
 }
 a{
   text-decoration: underline;
