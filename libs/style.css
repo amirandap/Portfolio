@@ -925,4 +925,11 @@ a{
   .intro .content{
     max-width: 35%;
   }
+
+  .intro>header{
+    margin-top: 160px;
+  }
+  .intro>header+* {
+    margin-top: 290px;
+}
 }
