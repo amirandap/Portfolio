@@ -897,7 +897,7 @@ body {
 @include font-face(Samplino, SF-UI-Text-HeavyItalic 	, 900, italic);
 */
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 750px) {
   canvas{
     display: none;
   }
