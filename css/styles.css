@@ -507,10 +507,3 @@ ul.list-of-links a:hover {
     padding: 11px 0px;
 }
 
-@media (min-width: 1200px)
-{
-.container {
-    width: 100% !important;
-}
-
-}
