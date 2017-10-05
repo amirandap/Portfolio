@@ -130,6 +130,7 @@ html {
 body {
   margin: 0;
   overflow: hidden;
+  background: #000;
 }
 
 
@@ -822,7 +823,7 @@ body {
 .intro .content {
   position: relative;
   top: 100px;
-  max-width: 70%;
+  max-width: 50%;
   padding-top: 60px;
   letter-spacing: -0.2px;
   line-height: 1.7;
@@ -906,7 +907,7 @@ a{
   color: #fff;
 }
 
-@media (min-width: 1200px)
+@media (min-width: 1600px)
 {
   .intro .content{
     font-size: 1.13em;
@@ -915,5 +916,9 @@ a{
   .intro>header{
     font-size: 2.5em !important;
     line-height: 53px !important;
+  }
+
+  .intro .content{
+    max-width: 35%;
   }
 }
