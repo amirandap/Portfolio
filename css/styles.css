@@ -143,13 +143,13 @@ body {
     height: 50px;
     background: #000;
     border-radius: 50%;
-    position: fixed;
+    position: absolute;
     left: 30px;
     top: 30px;
 }
 
 a.black-circle {
-    color: #fff;
+    color: #000;
     font-weight: bold;
     font-size: 1.25em;
     position: relative;
@@ -159,8 +159,13 @@ a.black-circle {
 
 a.black-circle:hover {
     text-decoration: none;
+    color: #000;
 }
 
+a.black-circle:focus {
+    color: #000;
+    outline: none;
+}
 
 /* Common Styles */
 
@@ -186,7 +191,7 @@ a.black-circle:hover {
 article {
     font-family: sfuiboldRegular;
     font-size: 19px;
-    line-height: 30px !important;
+    line-height: 36px !important;
 }
 
 .returnbackclose {
@@ -497,3 +502,7 @@ ul.list-of-links a:hover {
     -o-background-size:cover;
     background-size:cover;
  }*/
+
+.grid-item {
+    padding: 11px 0px;
+}
