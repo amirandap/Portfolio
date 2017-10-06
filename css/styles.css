@@ -308,7 +308,9 @@ section .fadeIn {
 
 
 /* Media Query Responsive Handle Section */
-
+.grid-himage{
+    display: none;
+}
 @media screen and (max-width: 650px) {
     .logo {
         position: absolute;
@@ -321,6 +323,12 @@ section .fadeIn {
     }
     video {
         max-height: 500px;
+    }
+    .grid-hvideo{
+        display: none;
+    }
+    .grid-himage{
+        display: block;
     }
 }
 
