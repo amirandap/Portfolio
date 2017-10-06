@@ -477,13 +477,7 @@ ul.list-of-links a:hover {
     text-decoration: none;
 }
 
-.rotate90 {
-    -ms-transform: rotate(90deg);
-    /* IE 9 */
-    -webkit-transform: rotate(90deg);
-    /* Chrome, Safari, Opera */
-    transform: rotate(90deg);
-}
+
 
 .col-half-offset {
     margin-left: 4.166666667%
