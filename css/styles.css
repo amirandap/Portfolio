@@ -147,7 +147,9 @@ body {
     left: 30px;
     top: 30px;
 }
-
+.btn {
+    font-family: sfuiboldRegular;
+}
 a.black-circle {
     color: #000;
     font-weight: bold;
