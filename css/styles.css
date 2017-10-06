@@ -308,8 +308,8 @@ section .fadeIn {
 
 
 /* Media Query Responsive Handle Section */
-.grid-himage{
-    display: none;
+.grid-himage {
+    display: none !important;
 }
 @media screen and (max-width: 650px) {
     .logo {
@@ -325,10 +325,10 @@ section .fadeIn {
         max-height: 500px;
     }
     .grid-hvideo{
-        display: none;
+        display: none !important;
     }
     .grid-himage{
-        display: block;
+        display: block !important;
     }
 }
 
@@ -477,7 +477,13 @@ ul.list-of-links a:hover {
     text-decoration: none;
 }
 
-
+.rotate90 {
+    -ms-transform: rotate(90deg);
+    /* IE 9 */
+    -webkit-transform: rotate(90deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+}
 
 .col-half-offset {
     margin-left: 4.166666667%
