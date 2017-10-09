@@ -161,22 +161,22 @@ initializeClock('clockdiv', deadline);
 
 <div class="row container" id="prpl-btn">
   <h3>Presale Private Offer is Going on Now!</h3>
-  <a class="prpl-btn" href="https://journalist-rabbit-21653.netlify.com/sample#openModal">Apply for Presale Private Offer</a> </div>
+  <a class="prpl-btn" href="https://journalist-rabbit-21653.netlify.com/sample1#openModal">Apply for Presale Private Offer</a> </div>
 <div id="openModal" class="modalDialog">
   <div style="max-width: 99%!important; border: solid #b34fff 1px"> <a href="https://apheliontoken.com/#close" title="Close" class="close">X</a>
-    <form id="contact" action="https://apheliontoken.com/#" method="post">
+   <form id="contact" action="https://apheliontoken.com/#" method="post">
       <h4>Apply for Presale Opportunity</h4>
       <p style="font-style: italic;font-size: 10px;">The offer is NOT available to citizens of the US. Minimum contribution amount to qualify for the Pre-Sale is the equivalent of $5,000 USD. Smaller amounts will be accepted on and after November 15, 2017</p>
-      <fieldset>
+       <div class="form-group">
         <input placeholder="First Name" type="text" tabindex="1" name="firstName" required="" autofocus="">
-      </fieldset>
-      <fieldset>
+     </div>
+       <div class="form-group">
         <input placeholder="Last Name" type="text" tabindex="2" name="lastName" required="" autofocus="">
-      </fieldset>
-      <fieldset>
+      </div>
+       <div class="form-group">
         <input placeholder="Email Address" type="email" tabindex="3" name="email" required="">
-      </fieldset>
-      <fieldset>
+      </div>
+       <div class="form-group">
         <label>Contribution Amount (USD Equivalent)</label>
         <div class="styled-select slate">
           <select id="myList" tabindex="4" name="contribution">
@@ -194,8 +194,8 @@ initializeClock('clockdiv', deadline);
             <option value="Other">Other</option>
           </select>
         </div>
-      </fieldset>
-      <fieldset>
+      </div>
+       <div class="form-group">
         <label>Currency</label>
         <div class="styled-select slate">
           <select id="myList-2" tabindex="4" name="currency">
@@ -207,21 +207,21 @@ initializeClock('clockdiv', deadline);
             <option value="Other">Other</option>
           </select>
         </div>
-      </fieldset>
-      <fieldset>
+      </div>
+       <div class="form-group">
         <textarea placeholder="Type additional info here...." tabindex="5" name="textMessage"></textarea>
-      </fieldset>
-      <fieldset>
+     </div>
+       <div class="form-group">
         <input type="checkbox" name="agreement" id="agreement" style="vertical-align: top;">
         &nbsp;&nbsp;
         <label style="width: 80%;" for="agreement">I am NOT a citizen of the US.</label>
-      </fieldset>
-      <fieldset>
+     </div>
+       <div class="form-group">
         <div id="RecaptchaField1"><div style="width: 304px; height: 78px;"><div><iframe src="./sample_files/anchor.html" title="recaptcha widget" width="304" height="78" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid #c1c1c1; margin: 10px 25px; padding: 0px; resize: none;  display: none; "></textarea></div></div>
-      </fieldset>
-      <fieldset>
+      </div>
+      <div class="form-group">
         <button class="prpl-btn" name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-      </fieldset>
+     </div>
     </form>
     <p style="color:red;display:none;" id="contact-error"></p>
   </div>
