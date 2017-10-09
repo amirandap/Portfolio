@@ -818,7 +818,7 @@ Linear Method Software</div>
     });
   });
   
-  $(function() {
+  /* $(function() {
 $('body').click(function(e){
 alert("call");
 var classn=e.target.className;
@@ -830,10 +830,13 @@ console.log("close");
 else{
  $('body').css('position', '');
 $('body').css('margin-right', '');}
-
-
 });
-  
+});*/
+  var loc = window.location.hash; 
+  if(loc === '#close' ){
+    $('body').css('position', 'fixed');}
+else{
+ $('body').css('position', '');
 });
 </script>
 
